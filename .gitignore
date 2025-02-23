@@ -1,0 +1,62 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+/static/
+/media/
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# mypy
+.mypy_cache/
+
+# pytest
+.cache/
+
+# Local development files
+local_settings.py
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Docker
+*.docker
+.docker/
+
+# VSCode settings
+.vscode/settings.json
+
+# PyCharm
+.idea/
+
+# Ignore migration files in all apps
+*/migrations/*.py
+*/migrations/*.pyc
+
+.pass_db
